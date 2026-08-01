@@ -1,0 +1,21 @@
+# クライアントの生データ（Brand Radar エクスポート等）はコミットしない
+_pipeline/data/*.tsv
+_pipeline/data/research.md
+
+# 生成物の中間ファイル
+_pipeline/data_monitoring.json
+_pipeline/personas_data.json
+_pipeline/__pycache__/
+
+# 旧構成の残骸（0バイト。ローカルでは手動削除可）
+_pipeline/mk_p2.py
+_pipeline/mk_p3.py
+_pipeline/parse_enegaeru.py
+_pipeline/data_enegaeru.json
+_pipeline/mon_template.html
+_pipeline/strategy.css
+_pipeline/data/diag_enegaeru.json
+_pipeline/data/enegaeru_research.md
+_pipeline/data/【*
+
+.DS_Store
